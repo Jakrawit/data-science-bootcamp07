@@ -3,7 +3,7 @@ library(tidyverse)
 mtcars %>% glimpse()
 
 mtcars %>%
-  selct(mpg,hp,wt) %>%
+  select(mpg,hp,wt) %>%
   summarise(mean(mpg))
 
-print("don")
+print("Done!")
